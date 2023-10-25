@@ -24,7 +24,8 @@ Put this folder anywhere you like in your file system
 hangman_Template.py: Template given by the instructors
 milestone_2.py: Exercises from milestone 2
 milestone_3.py: Exercises from milestone 3
+milestone_4.py: Exercises from milestone 4
 
 
 ## License information:
- Do whatever you want buddy
+Do whatever you want buddy
