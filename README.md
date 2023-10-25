@@ -21,7 +21,7 @@ Put this folder anywhere you like in your file system
 To run the full program type: python hangman.py from the CLI
 
 ## File structure of the project:
-hangman_Template.py: Template given by the instructors
+hangman_Template.py: Template given by the instructors  
 milestone_2.py: Exercises from milestone 2  
 milestone_3.py: Exercises from milestone 3  
 milestone_4.py: Exercises from milestone 4  
