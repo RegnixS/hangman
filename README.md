@@ -25,7 +25,7 @@ hangman_Template.py: Template given by the instructors
 milestone_2.py: Exercises from milestone 2
 milestone_3.py: Exercises from milestone 3
 milestone_4.py: Exercises from milestone 4
-
+milestone_5.py: Exercises from milestone 5
 
 ## License information:
 Do whatever you want buddy
