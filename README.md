@@ -18,7 +18,7 @@ All the files are in the folder: hangman
 Put this folder anywhere you like in your file system
 
 ## Usage instructions
-
+To run the full program type: python hangman.py from the CLI
 
 ## File structure of the project:
 hangman_Template.py: Template given by the instructors
@@ -26,6 +26,7 @@ milestone_2.py: Exercises from milestone 2
 milestone_3.py: Exercises from milestone 3
 milestone_4.py: Exercises from milestone 4
 milestone_5.py: Exercises from milestone 5
+hangman.py: The fully complete hangman game
 
 ## License information:
 Do whatever you want buddy
