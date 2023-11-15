@@ -71,9 +71,10 @@ class Hangman:
         if letter in self.word:
             print(f'Good guess! {letter} is in the word.')
         # TODO 3: If the letter is in the word, replace the '_' in the word_guessed list with the letter
-            for idx, letter in enumerate(self.word):
-                if letter == letter:
+            for idx, letterx in enumerate(self.word):
+                if letterx == letter:
                     self.word_guessed[idx] = letter 
+                    print(self.word_guessed)
         # TODO 3: If the letter is in the word, the number of UNIQUE letters in the word that have not been guessed yet has to be reduced by 1
             self.num_letters = self.num_letters - 1
         # TODO 3: If the letter is not in the word, reduce the number of lives by 1
@@ -94,12 +95,13 @@ class Hangman:
         while True:
         # TODO 1: Assign the letter to a variable called `letter`
             letter = input('Please enter a letter ')
+            letter = letter.lower()
         # TODO 1: The letter has to comply with the following criteria: It has to be a single character. If it is not, print "Please, enter just one character"
             if not (len(letter) == 1 and letter.isalpha()):
                 print('Please, enter just one character') 
         # TODO 2. It has to be a letter that has not been tried yet. Use the list_letters attribute to check this. If it has been tried, print "{letter} was already tried".
             elif letter in self.list_letters:
-                print(f'{self.letter} was already tried')
+                print(f'{letter} was already tried')
         # TODO 3: If the letter is valid, call the check_letter method
             else:
                 self.check_letter(letter)
@@ -125,7 +127,6 @@ def play_game(word_list):
         else:
             print('Congratulations. You won!')
             break
-    pass
 
 if __name__ == '__main__':
     word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
